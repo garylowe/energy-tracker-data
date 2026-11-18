@@ -1,0 +1,389 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "updated": "2026-11-18",
+  "priceCaps": [
+    {
+      "from": "2026-07-01",
+      "to": "2026-09-30",
+      "unitRateP": 26.11,
+      "standingChargeP": 57.19
+    },
+    {
+      "from": "2026-10-01",
+      "to": "2026-12-31",
+      "unitRateP": 26.32,
+      "standingChargeP": 54.83,
+      "note": "No VAT on household electricity from 1 October 2026 to 31 March 2027."
+    }
+  ],
+  "billQuarters": [
+    {
+      "period": "Q1 2022",
+      "short": "J22",
+      "wholesale": 8.5,
+      "network": 4.2,
+      "policy": 2.8,
+      "operating": 2.1,
+      "vat": 0.9
+    },
+    {
+      "period": "Q2 2022",
+      "short": "A22",
+      "wholesale": 14.2,
+      "network": 4.3,
+      "policy": 2.9,
+      "operating": 2.1,
+      "vat": 1.2,
+      "note": "Cap rose to £1,971/yr as gas prices soared"
+    },
+    {
+      "period": "Q3 2022",
+      "short": "J22",
+      "wholesale": 16.8,
+      "network": 4.4,
+      "policy": 2.9,
+      "operating": 2.1,
+      "vat": 1.3
+    },
+    {
+      "period": "Q4 2022",
+      "short": "O22",
+      "wholesale": 24.5,
+      "network": 4.5,
+      "policy": 2.9,
+      "operating": 2.2,
+      "vat": 1.7,
+      "note": "Russia/Ukraine crisis peak. Wholesale = 68% of bill. Energy Price Guarantee capped bills at £2,500/yr"
+    },
+    {
+      "period": "Q1 2023",
+      "short": "J23",
+      "wholesale": 20.1,
+      "network": 4.6,
+      "policy": 2.9,
+      "operating": 2.3,
+      "vat": 1.5,
+      "note": "Energy Price Guarantee continued"
+    },
+    {
+      "period": "Q2 2023",
+      "short": "A23",
+      "wholesale": 14.8,
+      "network": 4.7,
+      "policy": 3.1,
+      "operating": 2.4,
+      "vat": 1.2,
+      "note": "Ofgem cap £3,280/yr, but the Energy Price Guarantee still held typical bills at £2,500 until the end of June 2023"
+    },
+    {
+      "period": "Q3 2023",
+      "short": "J23",
+      "wholesale": 10.2,
+      "network": 4.8,
+      "policy": 3.2,
+      "operating": 2.5,
+      "vat": 1,
+      "note": "Cap fell to £2,074/yr as wholesale prices eased"
+    },
+    {
+      "period": "Q4 2023",
+      "short": "O23",
+      "wholesale": 7.8,
+      "network": 4.9,
+      "policy": 3.3,
+      "operating": 2.5,
+      "vat": 0.9,
+      "note": "Cap £1,834/yr"
+    },
+    {
+      "period": "Q1 2024",
+      "short": "J24",
+      "wholesale": 8.9,
+      "network": 5,
+      "policy": 3.4,
+      "operating": 2.6,
+      "vat": 1,
+      "note": "Cap £1,928/yr"
+    },
+    {
+      "period": "Q2 2024",
+      "short": "A24",
+      "wholesale": 6.4,
+      "network": 5.1,
+      "policy": 3.5,
+      "operating": 2.6,
+      "vat": 0.9,
+      "note": "Cap £1,690/yr, the lowest since early 2022"
+    },
+    {
+      "period": "Q3 2024",
+      "short": "J24",
+      "wholesale": 5.2,
+      "network": 5.2,
+      "policy": 3.6,
+      "operating": 2.7,
+      "vat": 0.8,
+      "note": "Cap £1,568/yr. Network costs now larger than wholesale"
+    },
+    {
+      "period": "Q4 2024",
+      "short": "O24",
+      "wholesale": 8.3,
+      "network": 6.4,
+      "policy": 2,
+      "operating": 6.6,
+      "vat": 1.2,
+      "note": "Cap £1,717/yr. Network costs now comparable to wholesale for the first time."
+    },
+    {
+      "period": "Q1 2025",
+      "short": "J25",
+      "wholesale": 8.3,
+      "network": 6.4,
+      "policy": 2,
+      "operating": 6.6,
+      "vat": 1.2,
+      "note": "Cap £1,738/yr"
+    },
+    {
+      "period": "Q2 2025",
+      "short": "A25",
+      "wholesale": 9,
+      "network": 6.5,
+      "policy": 1.7,
+      "operating": 6.5,
+      "vat": 1.2,
+      "note": "Cap £1,849/yr"
+    },
+    {
+      "period": "Q3 2025",
+      "short": "J25",
+      "wholesale": 8.6,
+      "network": 6.4,
+      "policy": 1.7,
+      "operating": 6.7,
+      "vat": 1.2,
+      "note": "Cap £1,720/yr"
+    },
+    {
+      "period": "Q4 2025",
+      "short": "O25",
+      "wholesale": 8.6,
+      "network": 6.4,
+      "policy": 1.7,
+      "operating": 6.7,
+      "vat": 1.2,
+      "note": "Cap £1,755/yr"
+    },
+    {
+      "period": "Q1 2026",
+      "short": "J26",
+      "wholesale": 9.7,
+      "network": 7.1,
+      "policy": 1.8,
+      "operating": 6.3,
+      "vat": 1.3,
+      "note": "Cap £1,758/yr."
+    },
+    {
+      "period": "Q2 2026",
+      "short": "A26",
+      "wholesale": 9.4,
+      "network": 6.6,
+      "policy": 1.4,
+      "operating": 4.9,
+      "vat": 1.2,
+      "note": "Cap £1,641/yr. From April 2026 the Energy Company Obligation was scrapped and 75% of Renewables Obligation costs moved to general taxation, taking about £150 off a typical bill."
+    },
+    {
+      "period": "Q3 2026",
+      "short": "J26",
+      "wholesale": 11.5,
+      "network": 6.5,
+      "policy": 1.6,
+      "operating": 5.2,
+      "vat": 1.3,
+      "note": "Cap £1,663/yr. Electricity 26.11p/kWh. Wholesale 44% of the bill. New typical-consumption basis from July 2026."
+    },
+    {
+      "period": "Q4 2026",
+      "short": "O26",
+      "wholesale": 12.4,
+      "network": 6.3,
+      "policy": 1.6,
+      "operating": 6.1,
+      "vat": 0,
+      "note": "Cap £1,723/yr. Electricity 26.32p/kWh. Wholesale 47% of the bill. VAT removed from household electricity 1 Oct 2026 – 31 Mar 2027."
+    }
+  ],
+  "nuclear": {
+    "stations": [
+      {
+        "id": "heysham",
+        "name": "Heysham 1 & 2",
+        "location": "Heysham, Lancashire",
+        "country": "England",
+        "reactors": 4,
+        "capacityMW": 2400,
+        "status": "active",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Heysham 1 due to close March 2027; Heysham 2 March 2030",
+        "bmUnits": [
+          "T_HEYM11",
+          "T_HEYM12",
+          "T_HEYM27",
+          "T_HEYM28"
+        ]
+      },
+      {
+        "id": "hartlepool",
+        "name": "Hartlepool",
+        "location": "Hartlepool, County Durham",
+        "country": "England",
+        "reactors": 2,
+        "capacityMW": 1185,
+        "status": "active",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Due to close March 2027",
+        "bmUnits": [
+          "T_HRTL-1",
+          "T_HRTL-2"
+        ]
+      },
+      {
+        "id": "sizewell",
+        "name": "Sizewell B",
+        "location": "Sizewell, Suffolk",
+        "country": "England",
+        "reactors": 1,
+        "capacityMW": 1198,
+        "status": "active",
+        "technology": "PWR",
+        "operator": "EDF Energy",
+        "note": "GB's only PWR, and its newest and most powerful single reactor. Life extended to 2055",
+        "bmUnits": [
+          "T_SIZB-1",
+          "T_SIZB-2"
+        ]
+      },
+      {
+        "id": "torness",
+        "name": "Torness",
+        "location": "Dunbar, East Lothian",
+        "country": "Scotland",
+        "reactors": 2,
+        "capacityMW": 1205,
+        "status": "active",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Due to close March 2030",
+        "bmUnits": [
+          "T_TORN-1",
+          "T_TORN-2"
+        ]
+      },
+      {
+        "id": "hunterston",
+        "name": "Hunterston B",
+        "location": "West Kilbride, Ayrshire",
+        "country": "Scotland",
+        "reactors": 2,
+        "capacityMW": 1020,
+        "status": "decommissioning",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Shut down January 2022, decommissioning underway"
+      },
+      {
+        "id": "hinkley_b",
+        "name": "Hinkley Point B",
+        "location": "Bridgwater, Somerset",
+        "country": "England",
+        "reactors": 2,
+        "capacityMW": 0,
+        "status": "closed",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Permanently closed August 2022",
+        "closedYear": 2022
+      },
+      {
+        "id": "dungeness_b",
+        "name": "Dungeness B",
+        "location": "Dungeness, Kent",
+        "country": "England",
+        "reactors": 2,
+        "capacityMW": 0,
+        "status": "closed",
+        "technology": "AGR",
+        "operator": "EDF Energy",
+        "note": "Permanently closed June 2021",
+        "closedYear": 2021
+      }
+    ],
+    "future": [
+      {
+        "id": "hpc",
+        "name": "Hinkley Point C",
+        "subtitle": "Bridgwater, Somerset · 2× EPR · 3.26 GW",
+        "badge": "Under construction",
+        "accent": "purple",
+        "badgeAccent": "amber",
+        "sections": [
+          {
+            "heading": "Cost & delays",
+            "body": [
+              "Original estimate (2016): **£18bn**\nLatest estimate (Feb 2026): {red:£35bn} in 2015 prices, nearly double.\nOriginal completion: 2025. Current forecast: Unit 1 in {amber:2030}."
+            ]
+          },
+          {
+            "heading": "What the 35-year strike price means",
+            "box": "amber",
+            "icon": "lightbulb",
+            "body": [
+              "HPC's CfD was agreed in 2013 at **£92.50/MWh in 2012 prices**. Indexed for inflation, that's roughly {amber:£130/MWh} today (it had already been indexed to £128.09 by 2024).",
+              "At current wholesale prices of ~£80–120/MWh, HPC would be {red:more expensive than the market}. Once it is generating, the LCCC would pay EDF the shortfall, roughly {red:£250m–£1.3bn per year} at those prices (our estimate).",
+              "Over 35 years and ~25.7 TWh/year output, the total support bill could be around {red:£9–45bn} if prices stayed in that range (our estimate), though payments reverse when prices spike (at 2022 prices, EDF would have been paying back).",
+              "The argument for HPC is long-term price stability: consumers are protected from future gas spikes. The argument against is that the strike price was set when renewables were far more expensive; recent offshore wind CfDs (2022–24 rounds) are roughly {green:£54–85/MWh} in today's money, well below HPC."
+            ],
+            "footnote": "EDF says HPC will supply around 7% of Britain's electricity. Despite the cost, it provides firm, weather-independent generation that wind and solar cannot, and that has real system value."
+          }
+        ]
+      },
+      {
+        "id": "szc",
+        "name": "Sizewell C",
+        "subtitle": "Sizewell, Suffolk · 2× EPR · ~3.2 GW",
+        "badge": "Approved",
+        "accent": "blue",
+        "badgeAccent": "blue",
+        "sections": [
+          {
+            "heading": "Status & cost",
+            "body": [
+              "Final Investment Decision signed in July 2025 at around {amber:£38bn} (2024 prices). The government is the largest shareholder (44.9%), alongside La Caisse (20%), Centrica (15%), EDF (12.5%) and Amber Infrastructure (7.6%)."
+            ]
+          },
+          {
+            "heading": "RAB model: you pay during construction",
+            "box": "blue",
+            "body": [
+              "Unlike HPC's CfD, Sizewell C is funded under a **Regulated Asset Base (RAB)** model. Consumers pay a levy on their bills {amber:during construction}, years before any electricity is generated. It's estimated at around £1 a month for an average household. This reduces EDF/government financing costs but shifts risk to bill-payers.",
+              "Because SZC is a near-identical copy of HPC (same EPR design), the hope is that lessons learned mean {green:faster, cheaper construction}, though this remains to be proven, as every EPR built globally has overrun significantly."
+            ]
+          },
+          {
+            "heading": "No strike price: RAB instead",
+            "body": [
+              "Because it is funded through RAB, Sizewell C does not have a CfD strike price like HPC. Its allowed revenue is regulated by Ofgem, so what consumers ultimately pay depends on how construction costs turn out."
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": "Elexon BMRS (live expected station output, as notified to the grid, adjusted for grid instructions; not metered. Bars show output vs capacity) · EDF Energy (station capacities, closure dates, HPC cost update Feb 2026) · LCCC · DESNZ / Sizewell C Ltd (FID, July 2025). Support-cost figures are our estimates and subject to change."
+  }
+}
