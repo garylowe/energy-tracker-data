@@ -1,27 +1,45 @@
 {
   "schema": 1,
-  "revision": 2,
+  "revision": 3,
   "updated": "2026-11-25",
   "priceCaps": [
     {
       "from": "2026-07-01",
       "to": "2026-09-30",
       "unitRateP": 26.11,
-      "standingChargeP": 57.19
+      "standingChargeP": 57.19,
+      "typicalBillGBP": 1663
     },
     {
       "from": "2026-10-01",
       "to": "2026-12-31",
       "unitRateP": 26.32,
       "standingChargeP": 54.83,
-      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027."
+      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027.",
+      "typicalBillGBP": 1723
     },
     {
       "from": "2027-01-01",
       "to": "2027-03-31",
       "unitRateP": 32.69,
       "standingChargeP": 54.77,
-      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027."
+      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027.",
+      "announced": "2026-11-25",
+      "typicalBillGBP": 2166,
+      "elecBillChangePct": 19,
+      "gasBillChangePct": 33,
+      "why": [
+        "Ofgem says the rise is down to the **conflict in the Middle East** pushing up international gas prices. Wholesale gas has roughly **tripled** since the conflict began.",
+        "Gas still sets the price of electricity much of the time: the market pays every generator the price of the last power station needed, usually a gas plant. So dearer gas lifts electricity too, though by less than gas bills ({amber:+19%} against {red:+33%}), because more of Britain's power now comes from renewables."
+      ],
+      "worthKnowing": [
+        "**Fixed tariffs** don't change until the deal ends. About 10 million households are on one. Ofgem suggests thinking about whether the predictability of a fix suits you.",
+        "If you're struggling to pay, **contact your supplier**. Ofgem says they must offer support and advice.",
+        "Paying by **Direct Debit** rather than on receipt of a bill saves the average household about £160 a year, according to Ofgem.",
+        "Ofgem reports the Government has announced that around 20 million households will get **£100** towards their energy bill from January.",
+        "On a time-of-use tariff such as **Octopus Agile**, moving use to cheaper times can soften the rise. The Forecast tab shows when they're likely to be."
+      ],
+      "source": "Ofgem, 25 November 2026"
     }
   ],
   "billQuarters": [
