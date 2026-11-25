@@ -2,7 +2,7 @@
 
 Content the GB Grid Watch app downloads so it can be updated without an app release:
 
-- `priceCaps`: Ofgem price cap periods (used for the Agile vs cap comparison)
+- `priceCaps`: Ofgem price cap periods (used for the Agile vs cap comparison). From app 1.2.0 a cap can also carry optional fields for the "Price cap change" card on the Insight tab, which shows from `announced` until four weeks after the cap starts: `typicalBillGBP`, `elecBillChangePct`, `gasBillChangePct`, `why` and `worthKnowing` (lists of paragraphs using the text formatting below) and `source`. Add `typicalBillGBP` to the previous cap too, so the card can show the change in the typical bill.
 - `billQuarters`: the quarterly unit-rate breakdown in "What's in your bill"
 - `nuclear`: nuclear station details, plus the Hinkley Point C and Sizewell C sections
 
