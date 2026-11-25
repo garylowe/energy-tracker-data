@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": 1,
-  "updated": "2026-11-18",
+  "revision": 2,
+  "updated": "2026-11-25",
   "priceCaps": [
     {
       "from": "2026-07-01",
@@ -14,7 +14,14 @@
       "to": "2026-12-31",
       "unitRateP": 26.32,
       "standingChargeP": 54.83,
-      "note": "No VAT on household electricity from 1 October 2026 to 31 March 2027."
+      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027."
+    },
+    {
+      "from": "2027-01-01",
+      "to": "2027-03-31",
+      "unitRateP": 32.69,
+      "standingChargeP": 54.77,
+      "note": "No VAT on household electricity from 1 October 2026 to 30 June 2027."
     }
   ],
   "billQuarters": [
@@ -214,7 +221,7 @@
       "policy": 1.6,
       "operating": 6.1,
       "vat": 0,
-      "note": "Cap £1,723/yr. Electricity 26.32p/kWh. Wholesale 47% of the bill. VAT removed from household electricity 1 Oct 2026 – 31 Mar 2027."
+      "note": "Cap £1,723/yr. Electricity 26.32p/kWh. Wholesale 47% of the bill. VAT removed from household electricity 1 Oct 2026 – 30 Jun 2027."
     }
   ],
   "nuclear": {
